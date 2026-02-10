@@ -234,9 +234,10 @@ font-weight: bold;
     top: 77%;
   }
   .e1{
-    left: 35%;
-  width: 250px;
-   flex-wrap: wrap;
-   margin-top: 5%;
+  text-align: center;
+        flex-wrap: wrap;
+       width: 250px;
+margin: 5% auto auto;
+left: 25%;
   }
   }
