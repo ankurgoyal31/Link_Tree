@@ -329,6 +329,10 @@ body {
     border-radius: 50px;
   }
  @media(max-width:768px){
+  .color{
+    width: 360px;
+    justify-self: center;
+  }
   textarea{
   width: 290px;
   height: 300px;
@@ -385,8 +389,11 @@ body {
    
    .card{
     font-size: 20px;
-    width: 400px;
+    width: 365px;
+    padding: 5px;
+     justify-self: center;
     }
+
     .sg1{
      }
     .ru{
@@ -420,16 +427,16 @@ body {
     }
  
     .size{
-      font-size: 25px;
+      font-size: 20px;
       text-align: center;
- width: 400px;
+ width: 370px;
     }
     .yell{
     color: yellow;
-    /* font-size: 70px; */
+    font-size: 70px;
   }
     .paragraf {
-width: 400px;
+width: 360px;
 text-align: center;
     }
     .btn123{
@@ -460,17 +467,20 @@ text-align: center;
     /* margin-top: 5%; */
   }
   .sg14{
-    height: 700px;
+    /* height: 700px; */
+     width: 360px;
+    padding: 5px;
+    justify-self: center;
   }
   .yell{
     color: yellow;
-    /* font-size: 82px; */
+    font-size: 39px;
   }
     .detail{
       display: flex;
       gap: 10px;
       color: #8445a9;
-      font-size: 20px;
+      font-size: 24px;
       margin-left: 20%;
       }
       .nav-item23{
