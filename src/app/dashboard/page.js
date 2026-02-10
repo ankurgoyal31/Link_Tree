@@ -138,7 +138,7 @@ console.log("i am s",s,a,date)
                               <h1>welcome! Ankur Goyal</h1>
  <div>{date[i].content}</div>
               <div className="d9" key={i}>
-                <Link className="ft" href={`http://localhost:3000/${s[i]}`}>{item}</Link>
+                <Link className="ft" href={`https://link-tree-wine-phi.vercel.app/${s[i]}`}>{item}</Link>
               </div>
                 <div className="date">created at : {new Date(date[i].createdAt).toLocaleString()}</div>
 
