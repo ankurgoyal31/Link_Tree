@@ -45,7 +45,7 @@ export const mong = async (urls, d, m,a,b,c,content) => {
   await Um.insertOne({url: urls, short: u, org: m, s: 1, Email:a,name:b,img:c,content:content,createdAt: new Date()});};
 
 export default async function Page({ params }) {
-  const { slug } = params;
+  const { slug } = await params;
   const reserved = ["dashboard", "login", "signup", "admin", "form"];
 
   if (reserved.includes(slug)) {
