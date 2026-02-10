@@ -144,7 +144,7 @@ background-color: rgb(247, 247, 247);
               font-size: 30px;
          }
          .v57{
- text-align: center;
+  text-align: center;
   font-size: 35px;
   margin-left: 10%;
   width: 800px;
@@ -460,7 +460,7 @@ body {
   /* margin-left: -10%; */
   }
   .k1{
-      margin-left: 15px;
+      margin-left: -15px;
 /* justify-self: end; */
   }
   .k1{
@@ -493,6 +493,7 @@ text-align: center;
     }
      .sd84{
      text-align: center;
+     font-size: 15px;
   }
   }
   .trust{
@@ -530,7 +531,7 @@ text-align: center;
                   background:linear-gradient(rgb(187, 121, 121),rgb(88, 88, 139),rgb(99, 29, 29));
 
         }
- .yell{
+        .yell{
     color: yellow;
     font-size: 89px;
     width: 800px;
