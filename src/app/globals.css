@@ -464,7 +464,7 @@ text-align: center;
   }
   .yell{
     color: yellow;
-    font-size: 82px;
+    /* font-size: 82px; */
   }
     .detail{
       display: flex;
