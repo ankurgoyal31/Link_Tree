@@ -146,7 +146,7 @@ background-color: rgb(247, 247, 247);
          .v57{
   text-align: center;
   font-size: 15px;
-  margin-left: -10%;
+  margin-left: 10%;
   }
   .a0{
     padding: 20px;
@@ -456,11 +456,9 @@ body {
   .v57{
   text-align: center;
   font-size: 15px;
-  /* margin-left: 15%; */
+  /* margin-left: -10%; */
   }
- .a0{
-  width:fit-content;
- }.k1{
+  .k1{
       margin-left: -30px;
 justify-self: end;
   }
@@ -494,7 +492,6 @@ text-align: center;
     }
      .sd84{
      text-align: center;
-    
   }
   }
   .trust{
