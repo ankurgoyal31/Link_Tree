@@ -1,0 +1,234 @@
+.w1{
+     justify-self: center;
+    margin-top: 2%;
+    /* background-color: rgb(252, 252, 252); */
+    padding: 40px;
+     /* width: 400px; */
+     border-radius: 10px;
+     margin-bottom: 10px;
+     display: flex;
+     /* width: 70%; */
+     flex-wrap: wrap;
+ }
+   .no-underline {
+    text-decoration: none;
+    color: black;
+font-weight: bold;   }
+   .l1{
+     background-color: rgb(167, 199, 188);
+    padding: 3px;
+    border-radius: 4px;
+    text-align: center;
+    width: 700px;
+    font-size: 30px;
+    justify-self: center;
+     margin-left: 0%;
+    }
+    .url345{
+       margin-top: 15px;
+       justify-self: center;
+    }
+   .l1:hover{
+background-color: white;
+    }
+   .i1{
+    width: 100px;
+    height: 100px;
+    border-radius:50px;
+    /* margin-top: 580px; */
+    z-index: 10;
+    position: absolute;
+    left: 45%;
+    /* top: 10%; */
+    bottom: 35%;
+ }
+ .w3{
+    position: absolute;
+    margin-top: 3%;
+    justify-self: center;
+   background: linear-gradient(rgb(214, 167, 167),black,rgb(74, 74, 236));
+    font-size: 25px;
+    justify-content: center;
+   padding: 100px;
+    
+ }
+ .restyle{
+  display: flex;
+  /* justify-content: space-between; */
+ }
+ .padding{
+   padding: 10px;
+  
+  }
+ .q1{
+    font-weight: bold;
+font-size:20px;
+margin-top: 10px;
+ }
+ .a1{
+    display: flex;
+    background-color: rgb(251, 178, 234);
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: -10px;
+ }
+ body{
+    background-color: pink;
+    /* background-color: black; */
+    height: 100vw;
+    font-size: 30px;
+ }
+.e1{
+    justify-self: center;
+    font-weight: bold;
+     z-index: 100;
+    position: absolute;
+     /* bottom: 38%; */
+    font-size: 30px;
+     margin-top: 1%;
+     left: 45%;
+ }
+ .text134{
+   position: absolute;
+   z-index: 10000;
+   margin-top: 10%;
+   font-size: 55;
+   color: rgb(90, 38, 38);
+ }
+ .text133{
+   position: absolute;
+   z-index: 10000;
+   /* margin-top: 10%; */
+   font-size: 61;
+   color: rgb(39, 1, 1);
+ }
+ 
+ .e1:hover{
+    text-shadow: 2px 2px 15px black;
+ }
+.i1 {
+  animation: ghoomna 15s linear infinite;
+  border-radius: 50%;   
+}
+@keyframes ghoomna {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ 
+.e4{
+   /* position: absolute; */
+    margin-top: 60px;
+    /* justify-self: center; */
+    /* background-color: aqua; */
+    text-decoration: none;
+    color: white;
+  }
+  .center{
+   position: absolute;
+    border: solid black 2px;
+    
+   background: linear-gradient(red,black,rgb(136, 136, 148));
+   justify-self: right;
+   }
+  .w4{
+   margin-top: 10px;
+    background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: inline; 
+  margin-top: 10px;
+  cursor: pointer;
+  }
+  .d6{
+   margin-top: 10px;
+     height: 15px;
+padding: 7px;
+box-shadow: 2px 2px 10px rgb(215, 185, 185);
+border-radius: 5px;
+  }
+  .d6:hover{
+   box-shadow: 2px 2px 10px black;
+   font-size: 17px;
+  }
+  .d7{
+   text-decoration: none;
+    color: black;
+font-weight: bold;
+   align-items: center;
+   margin-top: -20px;
+   /* padding-bottom: 14px; */
+   justify-content: center;
+   align-items: center;
+   padding: 5px;
+  }
+  .f4{
+   width: 100%;
+   margin-top: 0px;
+   filter: invert(18px);
+   height: 700px;
+   background-color: black ;
+  }
+.text134{
+    /* margin-top: 70%; */
+    color: #2f2e2e;
+   }
+   .text133{
+    color: #170101;
+    /* margin-top: 30%; */
+   }
+   /* .profile{
+    position: absolute;
+     left: 40%;
+   } */
+  .s6{
+    background-color: rgb(251, 178, 234);
+    padding: 10px;
+    text-align: center;
+    margin-top: 100px;
+     /* position: absolute; */
+        }
+        @media(max-width:768px){
+   
+ input{
+  width: 70vw;
+   }
+   .l1{
+    width: 300px;
+    margin-left: 25%;
+   }.w3{
+    width: 300px;
+    padding: 50px;
+   }
+   .center{
+    position: sticky;
+   }
+   .text133{
+        margin-top: 30%;
+          z-index: 10;
+
+   }
+   .text134{
+        margin-top: 70%;
+  z-index: 10;
+   }
+   .padding{
+   padding: 10px;
+  margin-top: 15%;
+  }
+  .i1{
+    position: absolute;
+    top: 74%;
+  }
+   /* .detail{
+      display: flex;
+      gap: 10px;
+      color: #8445a9;
+      font-size: 20px;
+     } */
+  }
