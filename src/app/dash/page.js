@@ -64,7 +64,7 @@ console.log(first)
           <div><img width={"100%"} height={"100%"} className='f4' src="https://cdn.prod.website-files.com/6667e16e76bdd11f17dcf374/67982d87352ea8c719de4ad6_lsp_linktree-blog-hero-video-links-feature-release-2_190320-085344.gif" alt="" /> </div>
   <div className='profile'>
 <div><img className='i1'  src={session?.user?.image} alt="" /></div>
-<div className='e1'>{session?.user?.name}</div>
+// <div className='e1'>{session?.user?.name}</div>
     </div>
             <div className='padding'> <div className='url'><h2>your url </h2></div></div>
 
