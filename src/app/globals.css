@@ -318,6 +318,13 @@ body {
   font-size: 25px;
   box-shadow: 2px 2px 15px rgb(253, 253, 253);
  }
+   .detail{
+      display: flex;
+      gap: 10px;
+      color: #8445a9;
+      font-size: 25px;
+      margin-left: 20%;
+      }
 .name2{
   padding: 20px;
   }
@@ -329,6 +336,14 @@ body {
     border-radius: 50px;
   }
  @media(max-width:768px){
+  .d9{
+    width: 300px;
+  }
+  .gk1{
+    width: 360px;
+    padding: 5px;
+    margin: auto;
+  }
   .color{
     width: 360px;
     justify-self: center;
@@ -340,6 +355,14 @@ body {
  }
    .detail{
     font-size: 0px;
+    margin-left: 0px;
+          display: flex;
+      gap: 10px;
+      color: #8445a9;
+      font-size: 17px;
+      margin-left: 20%;
+      
+  /* color: white; */
    }
  input{
   width: 70vw;
@@ -377,7 +400,7 @@ body {
     box-shadow: 2px 2px 15px ;
    }
    .video{
-    width: 410px;
+    width: 394.5px;
     height: 600px;
    }
    .sd8{
@@ -431,6 +454,13 @@ body {
       text-align: center;
  width: 370px;
     }
+      .trust{
+    color: #9999dd;
+    font-size: 15px;
+    width: 345px;
+    flex-wrap: wrap;
+    padding: 0px;
+  }
     .yell{
     color: yellow;
     font-size: 70px;
@@ -446,12 +476,6 @@ text-align: center;
      .sd84{
      text-align: center;
     
-  }
-    .trust{
-    color: #9999dd;
-    font-size: 25px;
-    width: 400px;
-    flex-wrap: wrap;
   }
   }
   .trust{
@@ -476,13 +500,7 @@ text-align: center;
     color: yellow;
     font-size: 39px;
   }
-    .detail{
-      display: flex;
-      gap: 10px;
-      color: #8445a9;
-      font-size: 24px;
-      margin-left: 20%;
-      }
+   
       .nav-item23{
         background:linear-gradient(rgb(158, 127, 127),rgb(62, 62, 84),rgb(42, 1, 1));
         width: 150px;
