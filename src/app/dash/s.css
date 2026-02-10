@@ -209,26 +209,34 @@ font-weight: bold;
     position: sticky;
    }
    .text133{
-        margin-top: 30%;
+        /* margin-top: 30%; */
+        width: 300px;
           z-index: 10;
+          font-size: 45px;
 
    }
    .text134{
-        margin-top: 70%;
+            width: 300px;
+
+        margin-top: 50%;
   z-index: 10;
+  font-size: 50px;
    }
    .padding{
    padding: 10px;
   margin-top: 15%;
   }
+  .profile{
+    /* margin-top: 10%; */
+  }
   .i1{
     position: absolute;
-    top: 74%;
+    top: 77%;
   }
-   /* .detail{
-      display: flex;
-      gap: 10px;
-      color: #8445a9;
-      font-size: 20px;
-     } */
+  .e1{
+    left: 35%;
+  width: 250px;
+   flex-wrap: wrap;
+   margin-top: 5%;
+  }
   }
