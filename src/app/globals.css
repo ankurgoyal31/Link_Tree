@@ -336,6 +336,9 @@ body {
     border-radius: 50px;
   }
  @media(max-width:768px){
+  .p1{
+    margin-top: 0px;
+  }
   .d9{
     width: 300px;
   }
@@ -400,8 +403,13 @@ body {
     box-shadow: 2px 2px 15px ;
    }
    .video{
-    width: 394.5px;
+    width: 340.5px;
     height: 600px;
+    margin-left: 7%;
+    box-shadow: 2px 1px 15px;
+    border-radius: 10px;
+    /* padding:10px; */
+    margin-top: 10px;
    }
    .sd8{
     width: 300px;
@@ -437,13 +445,14 @@ body {
  }
  .v5{
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
+  margin-left: 15%;
   }
  .a0{
   width:fit-content;
  }.k1{
       margin-left: -30px;
-
+justify-self: end;
   }
   .k1{
     margin-top: -1%;
@@ -494,7 +503,7 @@ text-align: center;
     /* height: 700px; */
      width: 360px;
     padding: 5px;
-    justify-self: center;
+    /* justify-self: center; */
   }
   .yell{
     color: yellow;
