@@ -426,7 +426,7 @@ body {
     }
     .yell{
     color: yellow;
-    font-size: 70px;
+    /* font-size: 70px; */
   }
     .paragraf {
 width: 400px;
