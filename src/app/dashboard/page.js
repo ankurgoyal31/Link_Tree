@@ -9,7 +9,6 @@ import Link from "next/link";
 import { dev } from "../[slug]/page";
 // import { set } from "mongoose";
 import { mong } from "../[slug]/page";
-import { signIn, signOut } from "next-auth/react";
 import { useSession } from "next-auth/react";
 import { Suspense } from "react";
 import dynamic from "next/dynamic";
@@ -117,7 +116,7 @@ console.log("i am s",s,a,date)
           </p>
           <div className="k1">
             <div>
-                {session &&<button className="a0"><Link href={"/form"} style={{textDecoration:'none',color:'black'}} class="nav-link disabled" className="btn4566" onClick={()=>signOut({ callbackUrl: "/login" })}>Create Your Link Tree</Link></button>}
+                {session &&<button className="a0"><Link href={"/form"} style={{textDecoration:'none',color:'black'}} class="nav-link disabled" className="btn4566">Create Your Link Tree</Link></button>}
              </div>
           </div>
  
