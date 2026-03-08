@@ -241,7 +241,7 @@ padding: 10px;
              }
 .card{
  display: flex;
- background-color: rgb(39, 39, 139);
+ background-color: white;
 }
 .size{
   font-size: 31px;
